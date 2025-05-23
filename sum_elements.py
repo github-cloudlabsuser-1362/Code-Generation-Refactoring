@@ -16,6 +16,7 @@ def main():
             exit(1)
 
       arr = []
+      
 
       print(f"Enter {n} integers:")
       for _ in range(n):
