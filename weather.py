@@ -1,4 +1,4 @@
-# build in python a weather app that connects to OpenWeatherMap api and shows results fro a city 
+# build in python a weather app that connects to OpenWeatherMap api and shows results for a city 
 import requests
 import json 
 import os
@@ -29,4 +29,3 @@ if response.status_code == 200:
     print(f"Wind Speed: {wind_speed} m/s")
 else:
     print(f"Error: {response.status_code} - {response.text}")
-    
